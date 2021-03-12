@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+hr {
+	width:100%;
+	border: 5px solid #45015d;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+#services{
+	text-align: justify;
+}
+#designers{
+	
+}
+
+/*--------menu----------------*/
+.menu{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width:150px;
+	padding: 20px 10px;
+	background-color: #45015d;
+	font-weight: bold;
+	color:white;
+}
+.menu a{
+	display: block;
+	width:100;
+	color:inherit;
+	text-decoration: none;
+	padding: 8px 16px;
+	box-sizing: border-box;
+}
+.menu a:hover {
+	color: #000;
+	background-color: #fff;
+} 
+/*--------------------main-----------------*/
+.main{
+	margin-left: 340px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+/*----------------showcase----------------------*/
+.image img{
+	border-radius: 10px;
+	width:45%;
+	margin:5px;
+	opacity: 0.7;
+}
+.image img:hover{
+	opacity: 1;
+}
+/*-----------------------designer---------------------*/
+.member{
+	display: inline-block;
+	width:30%;
+	padding: 8px 8px;
+	box-sizing: border-box;
+}
+.member img{
+	filter: grayscale(30%);
+	border-radius:10px;
+	width: 100%;
+}
+.description{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	 padding: 2px 16px 5px;
+}
+#designers p{
+	text-align: justify;
+}
+.position {
+    color: gray;
+}
+/*--------------------packages-----------------*/
+#pacages{
+	text-align: center;
+}
+#pacages h2{
+	text-align: left
+}
+#pacages p{
+	text-align: justify;
+}
+.tarif{
+	display: inline-block;
+	width:45%;
+	padding: 0px 20px;
+ 	text-align: center;
+ 	box-sizing: border-box;
+ 	vertical-align: middle;
+}
+.tarif ul{
+	background-color:#E8E8E8;
+	width:100%;
+	list-style-type: none;
+	border-radius: 10px;
+	margin:0;
+	padding: 0;
+}
+.tarif li{
+	border-bottom: 2px #C0C0C0 solid;
+	padding: 15px 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.tarifb{
+ background-color:#45015d;
+}
+.tarifp{
+ background-color:#f44336;
+}
+.name{
+	border-radius: 10px;
+ color:white;
+ padding: 20px 0;
+ font-size: 26px;
+}
+.tarif button{
+	padding: 12px 24px;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+.bbas{
+	 background-color:#45015d;
+}
+.bpro{
+	background-color:#f44336;
+}
+
+.tarif button:hover{
+	background-color:white;
+	color:black;
+}
+.price{
+	font-size: 26px;
+	font-weight: bold;
+}
+.tarif p{
+	text-align: center;
+	}
+/*---------------------- */
+
+#contact input {
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 8px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+#contact button {
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #45015d;
+	border-radius:10px;
+	padding: 12px 24px;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+#contact button:hover {
+	color: #000;
+	background-color: white;
+}
+/*----*/
+#footer {
+	padding: 32px 58px 32px;
+	background-color: #f1f1f1;
+	text-align: right;
+	margin-top: 75px;
+}
+
+#footer a {
+	color: black;
+}
